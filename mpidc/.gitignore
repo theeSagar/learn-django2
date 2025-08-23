@@ -1,0 +1,15 @@
+py byte code
+__pycache__/
+*.py[cod]
+
+Virtual Env
+venv/
+env/
+*.env
+*.venv/
+__pycache__/
+module11.py
+main.py
+master/remove_dupli_pinC.py
+incentive/dynamic.py
+mpidc/middleware.py

@@ -1,0 +1,55 @@
+CAFid :1546 | [2025-07-24 13:46:15] |Current status:Agenda and products created successfully.| API status: Success | Duration: 92.41785883903503s
+CAFid :1546 | [2025-07-24 13:46:15] |Current status:PDF created.| API status: Success | Duration: 93.09840655326843s
+CAFid :1546 | [2025-07-24 13:46:16] |Current status:File recived from minio| API status: Success | Duration: 93.29165291786194s
+CAFid :1546 | [2025-07-24 13:59:21] |Current status:Agenda and products created successfully.| API status: Success | Duration: 4.11175537109375s
+CAFid :1546 | [2025-07-24 13:59:22] |Current status:PDF created.| API status: Success | Duration: 5.103479862213135s
+CAFid :1546 | [2025-07-24 13:59:22] |Current status:File recived from minio| API status: Success | Duration: 5.366211175918579s
+CAFid :1553 | [2025-08-08 15:32:06] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 8.578615665435791s
+CAFid :1553 | [2025-08-08 15:32:53] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 10.242738008499146s
+CAFid :1553 | [2025-08-08 15:33:24] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 5.622966766357422s
+CAFid :1553 | [2025-08-08 15:33:53] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 5.489284515380859s
+CAFid :1553 | [2025-08-08 15:34:50] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 7.854398965835571s
+CAFid :1553 | [2025-08-08 15:36:26] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 5.2441086769104s
+CAFid :1553 | [2025-08-08 15:36:55] |Current status:column incentive_agenda.employee_domicile_percentage does not exist
+LINE 1: ...entive_agenda"."total_employee_before_expansion", "incentive...
+                                                             ^
+| API status: UnSuccess | Duration: 6.018179893493652s
+CAFid :1553 | [2025-08-08 15:37:25] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 4.040491104125977s
+CAFid :1553 | [2025-08-08 15:38:33] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 71.84884428977966s
+CAFid :1553 | [2025-08-08 15:46:42] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 561.4232134819031s
+CAFid :1553 | [2025-08-08 15:47:46] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 3.0237772464752197s
+CAFid :1553 | [2025-08-08 15:48:07] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 5.140316486358643s
+CAFid :1553 | [2025-08-08 15:48:48] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 46.45128011703491s
+CAFid :1553 | [2025-08-08 15:49:34] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 3.8293235301971436s
+CAFid :1553 | [2025-08-08 15:50:25] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 13.232039213180542s
+CAFid :1553 | [2025-08-08 16:07:58] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 569.0494875907898s
+CAFid :1533 | [2025-08-08 16:09:42] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 673.7081234455109s
+CAFid :1533 | [2025-08-08 16:14:39] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 10.055062532424927s
+CAFid :1533 | [2025-08-08 16:15:15] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 11.967437028884888s
+CAFid :1533 | [2025-08-08 16:15:54] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 3.4680936336517334s
+CAFid :1533 | [2025-08-08 16:16:18] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 2.8536853790283203s
+CAFid :1582 | [2025-08-11 12:53:50] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 212.07405805587769s
+CAFid :1582 | [2025-08-11 12:54:08] |Current status:column incentive_agenda.employee_domicile_percentage does not exist
+LINE 1: ...entive_agenda"."total_employee_before_expansion", "incentive...
+                                                             ^
+| API status: UnSuccess | Duration: 2.7830429077148438s
+CAFid :1582 | [2025-08-11 12:54:40] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 4.887324810028076s
+CAFid :1582 | [2025-08-11 12:56:18] |Current status:We are facing technical issue! Please try again later.| API status: UnSuccess | Duration: 102.38189888000488s
+CAFid :1582 | [2025-08-11 13:11:38] |Current status:Agenda and products created successfully.| API status: Success | Duration: 4.60454249382019s
+CAFid :1582 | [2025-08-11 13:11:38] |Current status:PDF created.| API status: Success | Duration: 5.468860149383545s
+CAFid :1582 | [2025-08-11 13:11:39] |Current status:File recived from minio| API status: Success | Duration: 5.664786338806152s
+CAFid :1582 | [2025-08-11 13:14:26] |Current status:Agenda and products created successfully.| API status: Success | Duration: 118.8948860168457s
+CAFid :1582 | [2025-08-11 13:14:27] |Current status:PDF created.| API status: Success | Duration: 119.62564373016357s
+CAFid :1582 | [2025-08-11 13:14:27] |Current status:File recived from minio| API status: Success | Duration: 119.86242318153381s
+CAFid :1582 | [2025-08-11 13:15:41] |Current status:Agenda and products created successfully.| API status: Success | Duration: 12.577699422836304s
+CAFid :1582 | [2025-08-11 13:15:41] |Current status:PDF created.| API status: Success | Duration: 13.214618921279907s
+CAFid :1582 | [2025-08-11 13:15:41] |Current status:File recived from minio| API status: Success | Duration: 13.445417881011963s
+CAFid :1582 | [2025-08-11 13:16:53] |Current status:Agenda and products created successfully.| API status: Success | Duration: 4.02614688873291s
+CAFid :1582 | [2025-08-11 13:16:54] |Current status:PDF created.| API status: Success | Duration: 4.727403879165649s
+CAFid :1582 | [2025-08-11 13:16:54] |Current status:File recived from minio| API status: Success | Duration: 5.002136945724487s
+CAFid :1581 | [2025-08-12 12:21:07] |Current status:Agenda and products created successfully.| API status: Success | Duration: 327.16974234580994s
+CAFid :1581 | [2025-08-12 12:21:08] |Current status:PDF created.| API status: Success | Duration: 328.07211542129517s
+CAFid :1581 | [2025-08-12 12:21:08] |Current status:File recived from minio| API status: Success | Duration: 328.3625907897949s
+CAFid :1580 | [2025-08-13 15:46:38] |Current status:Agenda and products created successfully.| API status: Success | Duration: 41.21827983856201s
+CAFid :1580 | [2025-08-13 15:46:39] |Current status:PDF created.| API status: Success | Duration: 41.948091983795166s
+CAFid :1580 | [2025-08-13 15:46:39] |Current status:File recived from minio| API status: Success | Duration: 42.238428831100464s
