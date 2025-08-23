@@ -52,7 +52,7 @@ urlpatterns = [
     path('slec-arrear',SLECArrearView.as_view(),name='slec-arrear'),
     path('update_signed_caf_pdf', UpdateSignedCAFView.as_view(), name='update_signed_caf_pdf'),
     path("agenda-pdf", AgendaPDFView.as_view(),name="agenda-pdf"),
-    path("update-signed-agenda-pdf", UpdateSignedAgendaView.as_view(),name="update-signed-agenda-pdf")
+    path("update-signed-agenda-pdf", UpdateSignedAgendaView.as_view(),name="update-signed-agenda-pdf"),
 
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
