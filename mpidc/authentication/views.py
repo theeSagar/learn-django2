@@ -59,6 +59,7 @@ class RegisterView(APIView):
 
     def post(self, request):
         data = request.data
+        print("")
 
         required_fields = [
             "name",
