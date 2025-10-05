@@ -38,6 +38,7 @@ from .serializers import (
 )
 from django.db import transaction
 from django.conf import settings
+from django.http import JsonResponse
 global_err_message = settings.GLOBAL_ERR_MESSAGE  
 
 
@@ -675,3 +676,19 @@ class WebAppointmentFormView(APIView):
         except Exception as e:
             return Response({"status":False,"message":global_err_message},
                             status=500)
+        
+# def index(request):
+#     print("Index function called",request.GET)
+#     return JsonResponse({"message":"Working fine func based views!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!."})
+from django.shortcuts import render
+import requests
+from django.shortcuts import redirect
+
+
+def IndexView(request):
+    print("_________________________________++++++++++++++++++++++++++++++")
+    return render(request, "index.html")
+
+def GoogleApiView(request):
+    print("___CALLED")
+    return redirect("https://www.google.com/")

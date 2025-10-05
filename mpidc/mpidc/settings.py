@@ -67,7 +67,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "corsheaders.middleware.CorsMiddleware",  # Add this line
-    "mpidc.middleware.my_middleware_func",
+    # "mpidc.middleware.my_middleware_func",
 ]
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
@@ -81,7 +81,7 @@ ROOT_URLCONF = "mpidc.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR,"templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
