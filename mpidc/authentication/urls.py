@@ -34,6 +34,7 @@ urlpatterns = [
     path("user-session-data",GetUserBySessionId.as_view(),name="GetUserBySessionId"),
     path("web-appointment-form", WebAppointmentFormView.as_view(),name="web-appointment-form"),
     path("index",views.IndexView),
-    path("google-redirext",views.GoogleApiView)
+    path("google-redirext",views.GoogleApiView),
+    path("upload-doc-aws",UploadDocAWSView.as_view(),name="upload-doc-aws")
     # path("index",IndexView.as_view(),name = "index-page")
 ]

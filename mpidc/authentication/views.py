@@ -692,3 +692,28 @@ def IndexView(request):
 def GoogleApiView(request):
     print("___CALLED")
     return redirect("https://www.google.com/")
+
+from rest_framework.parsers import MultiPartParser, FormParser
+from .utils import *
+class UploadDocAWSView(APIView):
+    parser_classes = (MultiPartParser, FormParser)
+
+    def post(self,request):
+
+        try:
+            document = request.FILES.get('document')
+            print(type(document),"703")
+            uploaded_file_path=UploadDocAWS((document))
+            return Response({
+                "status":False,
+                "message": "File uploaded👍",
+                "data": uploaded_file_path
+            },status=200)
+
+        except Exception as e:
+            return Response({
+                "message":str(e)
+            },status=500)
+
+    
+
