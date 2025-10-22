@@ -705,7 +705,7 @@ class UploadDocAWSView(APIView):
             print(type(document),"703")
             uploaded_file_path=UploadDocAWS((document))
             return Response({
-                "status":False,
+                "status":True,
                 "message": "File uploaded👍",
                 "data": uploaded_file_path
             },status=200)

@@ -9,11 +9,52 @@
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>This is rendered from Django templates</h1>
+    <h1>This is rendered from Django templates.</h1>
 
     <!-- Correct way: redirect, not fetch -->
-    <button  id="btn" onclick="window.location.href='http://127.0.0.1:8000/api/v1/auth/google-redirext'">
-    Open Google
+    <button id="btn" onclick="window.location.href='http://127.0.0.1:8000/api/v1/auth/google-redirext'">
+        Open Google
+    </button>
+        <form id="uploadForm" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="document" required />
+        <input type="submit" value="Upload" />
+    </form>
+
+    <script>
+    document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+        event.preventDefault();  // prevent default form submission
+
+        const form = event.target;
+        const formData = new FormData(form);
+
+        // Get CSRF token from the form (django template variable)
+        const csrfToken = form.querySelector('[name=csrfmiddlewaretoken]').value;
+
+        try {
+            const response = await fetch('/api/v1/auth/upload-doc-aws', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRFToken': csrfToken  // add CSRF token header for Django
+                }
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                alert(data.message || 'File uploaded successfully!');
+                form.reset();  // reset form after success
+            } else {
+                alert('Upload failed: ' + (data.message || 'Unknown error'));
+            }
+        } catch (error) {
+            alert('An error occurred: ' + error.message);
+        }
+    });
+    </script>
+
+
 
 </body>
 </html>
